@@ -6,21 +6,21 @@ Project - Principles of Design
 */
 
 void setup() {
-  size(1000,1000,P3D);
+  size(500,500,P3D);
+  surface.setLocation(200, 200);
   noStroke();
-  
 } // setup()
 
 
 // move variables
-int movex1 = 500;
-int movey1 = 100;
-int movex2 = 900;
-int movey2 = 500;
-int movex3 = 500;
-int movey3 = 900;
-int movex4 = 100;
-int movey4 = 500;
+int movex1 = 250;
+int movey1 = 50;
+int movex2 = 450;
+int movey2 = 250;
+int movex3 = 250;
+int movey3 = 450;
+int movex4 = 50;
+int movey4 = 250;
 
 // color variables
 float red = 0;
@@ -41,7 +41,7 @@ void drawSphere(int x, int y, float r, float g, float b) {
   fill(r,g,b);
     
   // draw the sphere
-  sphere(50);
+  sphere(25);
     
   // pops the matrix off of the stack
   popMatrix();
@@ -54,18 +54,18 @@ void draw() {
   
   // if mouse is pressed
   if(mousePressed) {            // mouse pressed
-    if (movey1 < 340) {
+    if (movey1 < 170) {
       // adjust variables
       movey1 += 5;
       movex2 -= 5;
       movey3 -= 5;
       movex4 += 5;
-      red += 6;
-      green += 6;
-      blue += 6;
-      redb -= 6;
-      greenb -= 6;
-      blueb -= 6;
+      red += 12;
+      green += 12;
+      blue += 12;
+      redb -= 12;
+      greenb -= 12;
+      blueb -= 12;
  
     } // if
     
@@ -77,35 +77,35 @@ void draw() {
             
     // draw line of spheres
     drawSphere(movex1,movey1,red,green,blue);
-    drawSphere(movex1,movey1-160,red,green,blue);
-    drawSphere(movex1,movey1-310,red,green,blue);
-    drawSphere(movex1,movey1-460,red,green,blue);
+    drawSphere(movex1,movey1-80,red,green,blue);
+    drawSphere(movex1,movey1-155,red,green,blue);
+    drawSphere(movex1,movey1-230,red,green,blue);
     drawSphere(movex2,movey2,red,green,blue);
-    drawSphere(movex2+160,movey2,red,green,blue);
-    drawSphere(movex2+310,movey2,red,green,blue);
-    drawSphere(movex2+460,movey2,red,green,blue);
+    drawSphere(movex2+80,movey2,red,green,blue);
+    drawSphere(movex2+155,movey2,red,green,blue);
+    drawSphere(movex2+230,movey2,red,green,blue);
     drawSphere(movex3,movey3,red,green,blue);
-    drawSphere(movex3,movey3+160,red,green,blue);
-    drawSphere(movex3,movey3+310,red,green,blue);
-    drawSphere(movex3,movey3+460,red,green,blue);
+    drawSphere(movex3,movey3+80,red,green,blue);
+    drawSphere(movex3,movey3+155,red,green,blue);
+    drawSphere(movex3,movey3+230,red,green,blue);
     drawSphere(movex4,movey4,red,green,blue);
-    drawSphere(movex4-160,movey4,red,green,blue);
-    drawSphere(movex4-310,movey4,red,green,blue);
-    drawSphere(movex4-460,movey4,red,green,blue);
+    drawSphere(movex4-80,movey4,red,green,blue);
+    drawSphere(movex4-155,movey4,red,green,blue);
+    drawSphere(movex4-230,movey4,red,green,blue);
      
   } else {                      // mouse released
-    if (movey1 > 100) {
+    if (movey1 > 50) {
       // adjust variables
       movey1 -= 5;
       movex2 += 5;
       movey3 += 5;
       movex4 -= 5;
-      red -= 6;
-      green -= 6;
-      blue -= 6;
-      redb += 6;
-      greenb += 6;
-      blueb += 6;
+      red -= 12;
+      green -= 12;
+      blue -= 12;
+      redb += 12;
+      greenb += 12;
+      blueb += 12;
       
     } // if
     
@@ -117,21 +117,21 @@ void draw() {
     
     // draw line of spheres
     drawSphere(movex1,movey1,red,green,blue);
-    drawSphere(movex1,movey1-160,red,green,blue);
-    drawSphere(movex1,movey1-310,red,green,blue);
-    drawSphere(movex1,movey1-460,red,green,blue);
+    drawSphere(movex1,movey1-80,red,green,blue);
+    drawSphere(movex1,movey1-155,red,green,blue);
+    drawSphere(movex1,movey1-230,red,green,blue);
     drawSphere(movex2,movey2,red,green,blue);
-    drawSphere(movex2+160,movey2,red,green,blue);
-    drawSphere(movex2+310,movey2,red,green,blue);
-    drawSphere(movex2+460,movey2,red,green,blue);
+    drawSphere(movex2+80,movey2,red,green,blue);
+    drawSphere(movex2+155,movey2,red,green,blue);
+    drawSphere(movex2+230,movey2,red,green,blue);
     drawSphere(movex3,movey3,red,green,blue);
-    drawSphere(movex3,movey3+160,red,green,blue);
-    drawSphere(movex3,movey3+310,red,green,blue);
-    drawSphere(movex3,movey3+460,red,green,blue);
+    drawSphere(movex3,movey3+80,red,green,blue);
+    drawSphere(movex3,movey3+155,red,green,blue);
+    drawSphere(movex3,movey3+230,red,green,blue);
     drawSphere(movex4,movey4,red,green,blue);
-    drawSphere(movex4-160,movey4,red,green,blue);
-    drawSphere(movex4-310,movey4,red,green,blue);
-    drawSphere(movex4-460,movey4,red,green,blue);
+    drawSphere(movex4-80,movey4,red,green,blue);
+    drawSphere(movex4-155,movey4,red,green,blue);
+    drawSphere(movex4-230,movey4,red,green,blue);
    
   } // if
 } // draw()

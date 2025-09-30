@@ -6,7 +6,8 @@ Project - Principles of Design
 */
 
 void setup() {
-  size(1200, 720, P3D);
+  size(800, 480, P3D);
+  surface.setLocation(200, 200);
   noStroke();
   fill(204);
   sphereDetail(60);
@@ -27,10 +28,10 @@ void draw() {
   pushMatrix();
   
   // translate to the right of the screen
-  translate(1000, height/2, 0);
+  translate(667, height/2, 0);
   
   // draw sphere to the right
-  sphere(50);
+  sphere(33);
   
   // pop the matrix off of the stack
   popMatrix();
@@ -39,10 +40,10 @@ void draw() {
   pushMatrix();
   
   // translate to the left of the screen
-  translate(200, height/2, 0);
+  translate(133, height/2, 0);
   
   // draw sphere to the left
-  sphere(50);
+  sphere(33);
   
   // pop the matrix off of the stack
   popMatrix();
@@ -60,7 +61,7 @@ void draw() {
   translate(width/2, height/2, 0);
   
   // draw sphere in the middle
-  sphere(200);
+  sphere(133);
   
   // pop the matrix off of the stack
   popMatrix();

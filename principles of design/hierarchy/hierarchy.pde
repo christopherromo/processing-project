@@ -8,7 +8,8 @@ Project - Principles of Design
 PImage img;
 
 void setup() {
-  size(1400, 1399, P3D);
+  size(700, 699, P3D);
+  surface.setLocation(10, 10);
   noStroke();
   sphereDetail(60);
   img = loadImage("stars.jpg"); // load the original image
@@ -44,13 +45,13 @@ void draw() {
   rotate(TWO_PI / rotate * current_step_mercury);
   
   // translate to position in solar system
-  translate(0, 200, 0);
+  translate(0, 100, 0);
   
   // fill in the sphere
   fill(210,210,210);
   
   // draw sphere in the middle
-  sphere(20);
+  sphere(10);
   
   // pop the matrix off of the stack
   popMatrix();
@@ -72,13 +73,13 @@ void draw() {
   rotate(TWO_PI / rotate * current_step_venus);
   
   // translate to position in solar system
-  translate(0, 275, 0);
+  translate(0, 138, 0);
   
   // fill in the sphere
   fill(210,180,140);
   
   // draw sphere in the middle
-  sphere(30);
+  sphere(15);
   
   // pop the matrix off of the stack
   popMatrix();
@@ -100,13 +101,13 @@ void draw() {
   rotate(TWO_PI / rotate * current_step_earth);
   
   // translate to position in solar system
-  translate(0, 350, 0);
+  translate(0, 175, 0);
   
   // fill in the sphere
   fill(0,157,196);
   
   // draw sphere in the middle
-  sphere(35);
+  sphere(18);
   
   // pop the matrix off of the stack
   popMatrix();
@@ -128,13 +129,13 @@ void draw() {
   rotate(TWO_PI / rotate * current_step_mars);
   
   // translate to position in solar system
-  translate(0, 425, 0);
+  translate(0, 213, 0);
   
   // fill in the sphere
   fill(185,72,78);
   
   // draw sphere in the middle
-  sphere(25);
+  sphere(13);
   
   // pop the matrix off of the stack
   popMatrix();
@@ -156,13 +157,13 @@ void draw() {
   rotate(TWO_PI / rotate * current_step_jupiter);
   
   // translate to position in solar system
-  translate(0, 525, 0);
+  translate(0, 263, 0);
   
   // fill in the sphere
   fill(255,140,0);
   
   // draw sphere in the middle
-  sphere(50);
+  sphere(25);
   
   // pop the matrix off of the stack
   popMatrix();
@@ -183,7 +184,7 @@ void draw() {
   fill(255,255,0);
   
   // draw sphere in the middle
-  sphere(100);
+  sphere(50);
   
   // pop the matrix off of the stack
   popMatrix();

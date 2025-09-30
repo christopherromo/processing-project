@@ -6,7 +6,8 @@ Project - Principles of Design
 */
 
 void setup() {
-  size(800,800,P3D);
+  size(400,400,P3D);
+  surface.setLocation(200, 200);
   noStroke();
   
 } // setup()
@@ -40,7 +41,7 @@ void draw() {
     pushMatrix();
     
     // translate to upper right side
-    translate(500, 300, 0);
+    translate(250, 150, 0);
   
     // inverted mouseY coordinate
     int invert = width - mouseY;
@@ -70,7 +71,7 @@ void draw() {
     pushMatrix();
     
     // translate to upper right side
-    translate(500, 300, 0);
+    translate(250, 150, 0);
   
     // inverted mouseY coordinate
     int invert = width - mouseY;
@@ -103,7 +104,7 @@ void draw() {
     pushMatrix();
     
     // translate to the lower left side
-    translate(300, 500, 0);
+    translate(150, 250, 0);
   
     // inverted mouseY coordinate
     int invert = width - mouseY;
@@ -133,7 +134,7 @@ void draw() {
     pushMatrix();
     
     // translate to lower left side
-    translate(300, 500, 0);
+    translate(150, 250, 0);
   
     // inverted mouseY coordinate
     int invert = width - mouseY;

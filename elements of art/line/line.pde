@@ -10,6 +10,9 @@ void setup() {
   // size function defines the canvas size
   size(500,500);
   
+  // set the location on the desktop
+  surface.setLocation(100, 100);
+  
   // background function defines the canvas color
   background(153,255,255);
 

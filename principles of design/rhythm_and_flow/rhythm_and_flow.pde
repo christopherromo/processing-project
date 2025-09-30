@@ -7,6 +7,7 @@ Project - Principles of Design
 
 void setup() {
   size(500,500);
+  surface.setLocation(100, 100);
   noStroke();
   
 } // setup()

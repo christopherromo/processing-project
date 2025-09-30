@@ -7,6 +7,7 @@ Project - Elements of Art
 
 void setup() {
   size(500,500);
+  surface.setLocation(100, 100);
   background(152,255,152);
   
 } // setup()

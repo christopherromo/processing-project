@@ -9,7 +9,8 @@ import java.lang.*;
 import java.util.Random;
 
 void setup() {
-  size(1000,1000,P3D);
+  size(500,500,P3D);
+  surface.setLocation(200, 200);
   noStroke();
   
 } // setup()
@@ -30,29 +31,29 @@ void drawSphere(float x, float y, float frequency, int r, int g, int b, int grad
     fill(r,g,b);
   
     // draws the sphere
-    sphere(50);
+    sphere(25);
     
     // pops default matrix from stack
     popMatrix();
     
     // uses sin function to create curve
-    x = x + sin(radians(y * frequency)) * 60;
+    x = x + sin(radians(y * frequency)) * 30;
     
     // recursive call depending on the gradient choice
     if (gradient == 0) {             // color -> white
-      drawSphere(x,y+60,frequency,r+13,g+13,b+13,gradient,baseCase-1);
+      drawSphere(x,y+30,frequency,r+13,g+13,b+13,gradient,baseCase-1);
       
     } else if (gradient == 1) {      // color -> black
-      drawSphere(x,y+60,frequency,r-13,g-13,b-13,gradient,baseCase-1);
+      drawSphere(x,y+30,frequency,r-13,g-13,b-13,gradient,baseCase-1);
       
     } else if (gradient == 2) {      // color, red++
-      drawSphere(x,y+60,frequency,r+13,g,b,gradient,baseCase-1);
+      drawSphere(x,y+30,frequency,r+13,g,b,gradient,baseCase-1);
       
     } else if (gradient == 3) {      // color, green++
-      drawSphere(x,y+60,frequency,r,g+13,b,gradient,baseCase-1);
+      drawSphere(x,y+30,frequency,r,g+13,b,gradient,baseCase-1);
       
     } else {                         // color, blue++
-      drawSphere(x,y+60,frequency,r,g,b+13,gradient,baseCase-1);
+      drawSphere(x,y+30,frequency,r,g,b+13,gradient,baseCase-1);
       
     } 
   }

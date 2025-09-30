@@ -6,9 +6,9 @@ Project - Principles of Design
 */
 
 void setup() {
-  size(1000,1000,P3D);
+  size(500,500,P3D);
+  surface.setLocation(200, 200);
   noStroke();
-  surface.setResizable(true);
   
 } // setup()
 
@@ -147,11 +147,11 @@ void draw() {
   turn += 1;
   
   // draw five stars
-  drawStar(500,500,200,red,green,blue);
-  drawStar(250,750,100,red,green,blue);
-  drawStar(750,750,100,red,green,blue);
   drawStar(250,250,100,red,green,blue);
-  drawStar(750,250,100,red,green,blue);
+  drawStar(125,375,50,red,green,blue);
+  drawStar(375,375,50,red,green,blue);
+  drawStar(125,125,50,red,green,blue);
+  drawStar(375,125,50,red,green,blue);
   
 } // draw()
 
