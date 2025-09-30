@@ -1,8 +1,8 @@
 /**
 @christopherRomo
 CS4800 (T/R)
-November 27th, 2024
-Project Demo 2
+December 9th, 2024
+Project - Principles of Design
 */
 
 PImage img;
@@ -11,7 +11,7 @@ void setup() {
   size(1400, 1399, P3D);
   noStroke();
   sphereDetail(60);
-  img = loadImage("C:/Users/ferfe/Desktop/2024 UCCS projects fall/CS 4800 Computer Graphics/Assignments/Processing/Demo 2/Hierarchy/stars.jpg"); // Load the original image
+  img = loadImage("stars.jpg"); // load the original image
   
 } // setup()
 

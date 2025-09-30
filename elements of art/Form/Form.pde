@@ -2,7 +2,7 @@
 @christopherRomo
 CS4800 (T/R)
 October 8th, 2024
-Project Demo 1
+Project - Elements of Art
 */
 
 void setup() {
@@ -55,7 +55,7 @@ void draw() {
     if(blue == 0) {
       cycle = 0;
     }
-  }
+  } // if
   
   // centers the cube in the canvas
   // also done by width/2, height/2

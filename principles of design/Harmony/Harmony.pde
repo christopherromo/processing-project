@@ -1,8 +1,8 @@
 /**
 @christopherRomo
 CS4800 (T/R)
-December 6th, 2024
-Project Demo 2
+December 9th, 2024
+Project - Principles of Design
 */
 
 import java.lang.*;
@@ -107,6 +107,3 @@ void mouseClicked() {
     
   }
 }
-
-/* algorithms for radial design (line 103), and sin wave (line 39)
-were created using help from chatgpt: https://chatgpt.com/share/6753866f-f188-8003-9a29-e930bb8dcfae */

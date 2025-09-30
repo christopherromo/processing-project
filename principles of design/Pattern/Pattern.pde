@@ -1,8 +1,8 @@
 /**
 @christopherRomo
 CS4800 (T/R)
-October 29th, 2024
-Project Demo 2
+December 9th, 2024
+Project - Principles of Design
 */
 
 void setup() {

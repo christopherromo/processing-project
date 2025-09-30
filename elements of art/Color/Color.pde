@@ -2,7 +2,7 @@
 @christopherRomo
 CS4800 (T/R)
 October 8th, 2024
-Project Demo 1
+Project - Elements of Art
 */
 
 void setup() {

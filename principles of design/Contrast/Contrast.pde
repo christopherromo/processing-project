@@ -1,13 +1,14 @@
 /**
 @christopherRomo
 CS4800 (T/R)
-December 1st, 2024
-Project Demo 2
+December 9th, 2024
+Project - Principles of Design
 */
 
 void setup() {
   size(1000,1000,P3D);
   noStroke();
+  surface.setResizable(true);
   
 } // setup()
 
@@ -81,7 +82,6 @@ void draw() {
     redb = 0;
     greenb = 0;
     blueb = 0;
-    
   } else if (cycle == 1) {     // baby blue and icy white (low)
     red = 213;
     green = 255;
@@ -90,7 +90,6 @@ void draw() {
     redb = 240;
     greenb = 248;
     blueb = 254;
-    
   } else if (cycle == 2) {     // orange and blue (high)
     red = 255;
     green = 95;
@@ -99,7 +98,6 @@ void draw() {
     redb = 125;
     greenb = 249;
     blueb = 255;
-    
   } else if (cycle == 3) {     // maroon and violet (low)
     red = 48;
     green = 25;
@@ -108,7 +106,6 @@ void draw() {
     redb = 50;
     greenb = 0;
     blueb = 0;
-    
   } else if (cycle == 4) {     // green and red (high)
     red = 255;
     green = 0;
@@ -117,7 +114,6 @@ void draw() {
     redb = 57;
     greenb = 255;
     blueb = 20;
-    
   } else if (cycle == 5) {     // baby pink and lavender (low)
     red = 244;
     green = 194;
@@ -126,7 +122,6 @@ void draw() {
     redb = 211;
     greenb = 211;
     blueb = 255;
-    
   } else if (cycle == 6) {     // yellow and purple (high)
     red = 191;
     green = 64;
@@ -135,7 +130,6 @@ void draw() {
     redb = 224;
     greenb = 231;
     blueb = 34;
-    
   } else if (cycle == 7) {     // sage green and tan (low)
     red = 178;
     green = 172;
@@ -143,10 +137,8 @@ void draw() {
     
     redb = 210;
     greenb = 180;
-    blueb = 140;
-    
-  }
-  
+    blueb = 140; 
+  } // if
   
   // background color
   background(redb,greenb,blueb);
@@ -169,6 +161,6 @@ void mouseClicked() {
     cycle = 0;
   } else {
     cycle += 1;
-  }
+  } // if
   
 } // mouseClicked()

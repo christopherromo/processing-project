@@ -2,7 +2,7 @@
 @christopherRomo
 CS4800 (T/R)
 December 9th, 2024
-Project Demo 1
+Project - Principles of Design
 */
 
 void setup() {
@@ -66,8 +66,8 @@ void draw() {
       redb -= 6;
       greenb -= 6;
       blueb -= 6;
-      
-    }
+ 
+    } // if
     
     // background color
     background(redb,greenb,blueb);
@@ -107,7 +107,7 @@ void draw() {
       greenb += 6;
       blueb += 6;
       
-    }
+    } // if
     
     // background color
     background(redb,greenb,blueb);
@@ -133,5 +133,5 @@ void draw() {
     drawSphere(movex4-310,movey4,red,green,blue);
     drawSphere(movex4-460,movey4,red,green,blue);
    
-  }
+  } // if
 } // draw()

@@ -1,8 +1,8 @@
 /**
 @christopherRomo
 CS4800 (T/R)
-October 29th, 2024
-Project Demo 2
+December 9th, 2024
+Project - Principles of Design
 */
 
 void setup() {
@@ -55,7 +55,7 @@ void draw() {
     if(blue == 0) {
       cycle = 0;
     }
-  }
+  } // if
   
   // pushes default language to stack
   pushMatrix();
