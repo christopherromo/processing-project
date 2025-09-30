@@ -138,6 +138,7 @@ void draw() {
     redb = 210;
     greenb = 180;
     blueb = 140; 
+    
   } // if
   
   // background color
@@ -161,6 +162,7 @@ void mouseClicked() {
     cycle = 0;
   } else {
     cycle += 1;
+    
   } // if
   
 } // mouseClicked()

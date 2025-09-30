@@ -12,7 +12,6 @@ void setup() {
   
 } // setup()
 
-
 // move variables
 int movex1 = 50;
 int movey1 = 50;

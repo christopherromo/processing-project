@@ -11,7 +11,6 @@ void setup() {
   noStroke();
 } // setup()
 
-
 // move variables
 int movex1 = 250;
 int movey1 = 50;
