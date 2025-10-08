@@ -1,6 +1,6 @@
 ## Important Info
 
-This is a project created for my computer graphics class at UCCS (Fall 2024 Semester). It is a collection of Processing files that showcase the elements of art and principles of design.
+This is a project created for my "Computer Graphics" (CS 4800) class at UCCS (Fall 2024 Semester). It is a collection of Processing files that showcase the elements of art and principles of design.
 
 This project was built with the following tools:
    - Processing (Java)
@@ -26,7 +26,7 @@ This project is a collection of Processing files that each showcase an element o
 1. Clone the repository.
 
 2. Ensure Processing is installed on your system. 
-    - *Made with Processing 4.4.7*
+    - *Made with Processing 4.4.8*
 
 3. Open the desired file and run the code.
     - *Some files feature interaction via the mouse!*

@@ -1,5 +1,5 @@
-/**
-@christopherRomo
+/*
+Christopher Romo
 CS4800 (T/R)
 October 8th, 2024
 Project - Elements of Art

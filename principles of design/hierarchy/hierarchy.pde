@@ -1,5 +1,5 @@
-/**
-@christopherRomo
+/*
+Christopher Romo
 CS4800 (T/R)
 December 9th, 2024
 Project - Principles of Design
